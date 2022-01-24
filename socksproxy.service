@@ -1,0 +1,10 @@
+[Unit]
+Description=Socks Proxy
+Wants=network.target
+After=network.target
+[Service]
+Type=simple
+ExecStart=/usr/bin/python -O loc/proxy.py
+ExecStop=/bin/bash -c "kill -15 \`cat loc/.pid\`"
+[Install]
+WantedBy=network.target

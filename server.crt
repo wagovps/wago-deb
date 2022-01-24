@@ -1,0 +1,87 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            22:35:73:73:b1:05:89:4b:5e:43:9a:1b:b3:10:86:d2
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=WaGo-G VPN
+        Validity
+            Not Before: Aug 20 10:34:31 2020 GMT
+            Not After : Nov 23 10:34:31 2022 GMT
+        Subject: CN=WaGo-G VPN
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:b8:11:b1:05:14:1c:d0:be:a5:d5:9f:f0:40:6f:
+                    d1:77:8d:82:16:0a:b2:12:fb:1c:3d:e0:d6:4e:8f:
+                    3e:2a:34:ae:48:92:9c:06:9d:5a:7f:72:fb:ea:7a:
+                    4f:61:eb:21:0e:1c:c7:03:0b:7b:7b:97:2a:2c:4e:
+                    93:fc:84:0c:33:97:50:70:f2:97:f3:ec:5a:60:c5:
+                    32:df:be:23:d8:44:7e:4f:b8:8a:fb:6f:46:8d:f3:
+                    a9:ea:53:6f:ff:ec:f3:48:8a:62:b5:15:76:38:1b:
+                    6c:87:d0:79:07:6c:27:67:6d:32:cf:0a:e9:5b:db:
+                    70:5e:9d:ce:da:b7:bb:2b:a7:ce:21:57:d9:6a:ea:
+                    33:6a:c1:bc:2c:96:77:e1:6b:84:0f:43:35:c9:65:
+                    75:d2:07:66:dd:1f:ad:d9:59:63:d6:d9:e9:ce:f7:
+                    2d:3d:b7:ed:b3:d3:71:39:3b:5a:ed:ed:81:13:7d:
+                    87:d2:1a:41:b7:58:14:ea:2a:b9:a7:21:e2:89:31:
+                    6a:8a:2b:fc:27:1a:14:a4:b9:63:dc:9f:66:d0:b8:
+                    c2:f5:f4:c9:a8:fe:d4:a0:5f:2d:77:43:6a:bd:35:
+                    aa:0e:3b:fb:20:62:f3:68:39:0b:6d:2a:27:2c:3b:
+                    49:c1:71:40:81:0d:ff:df:2c:36:2b:37:1b:7e:3f:
+                    53:49
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                5C:D5:92:79:4D:68:6F:85:00:30:49:3B:EC:6B:E9:3D:AA:47:73:7E
+            X509v3 Authority Key Identifier: 
+                keyid:9D:10:1B:FC:87:74:E0:BB:32:61:56:96:5E:D0:52:8E:B1:CD:29:79
+                DirName:/CN=WaGo-G VPN
+                serial:C6:FB:EE:AB:A2:F8:E3:93
+
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:WaGo-G VPN
+    Signature Algorithm: sha256WithRSAEncryption
+         1f:70:2a:2c:a5:a9:37:a5:ca:d7:1b:e6:d3:08:c4:11:30:6a:
+         7c:6c:34:ba:8b:22:6e:2d:ad:38:98:b2:8a:2b:c1:51:28:69:
+         95:b0:92:1a:c6:e1:18:f1:da:7b:1f:f1:ac:b6:d4:89:1b:f8:
+         1e:70:5c:46:57:9d:e4:f2:24:16:28:82:19:f9:e8:aa:08:60:
+         c2:1b:5d:e6:4a:1d:cb:46:9f:1e:4d:70:71:af:59:bc:f8:d4:
+         0b:41:3e:73:c0:8f:0f:e5:1e:16:3c:0e:84:3a:59:b6:1e:8b:
+         ef:73:7f:d3:65:1f:3c:55:2a:0a:6f:ec:97:da:dd:f1:66:6e:
+         27:20:c7:90:b4:c3:03:de:3b:2f:53:42:32:ca:61:96:f7:b3:
+         2b:4d:5a:1c:e9:13:ec:fe:32:be:76:58:6e:0b:e0:46:20:c8:
+         3f:26:bd:ec:80:96:e4:92:84:ad:29:09:07:4d:f1:19:a6:27:
+         5b:18:b1:1c:8a:8e:6e:19:5b:1c:74:fc:ae:80:8b:05:44:27:
+         1e:d8:08:e0:7c:2b:67:eb:e7:9d:72:52:c4:09:5a:9f:29:f9:
+         7f:d9:dc:fd:f2:67:75:f7:72:d2:af:59:fe:e4:0c:59:0f:37:
+         5e:a5:e4:c0:56:7e:5f:73:77:44:2b:77:79:c4:9b:c3:bd:8e:
+         54:41:6f:5b
+-----BEGIN CERTIFICATE-----
+MIIDYjCCAkqgAwIBAgIQIjVzc7EFiUteQ5obsxCG0jANBgkqhkiG9w0BAQsFADAV
+MRMwEQYDVQQDDApXYUdvLUcgVlBOMB4XDTIwMDgyMDEwMzQzMVoXDTIyMTEyMzEw
+MzQzMVowFTETMBEGA1UEAwwKV2FHby1HIFZQTjCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBALgRsQUUHNC+pdWf8EBv0XeNghYKshL7HD3g1k6PPio0rkiS
+nAadWn9y++p6T2HrIQ4cxwMLe3uXKixOk/yEDDOXUHDyl/PsWmDFMt++I9hEfk+4
+ivtvRo3zqepTb//s80iKYrUVdjgbbIfQeQdsJ2dtMs8K6VvbcF6dztq3uyunziFX
+2WrqM2rBvCyWd+FrhA9DNcllddIHZt0frdlZY9bZ6c73LT237bPTcTk7Wu3tgRN9
+h9IaQbdYFOoquach4okxaoor/CcaFKS5Y9yfZtC4wvX0yaj+1KBfLXdDar01qg47
++yBi82g5C20qJyw7ScFxQIEN/98sNis3G34/U0kCAwEAAaOBrTCBqjAJBgNVHRME
+AjAAMB0GA1UdDgQWBBRc1ZJ5TWhvhQAwSTvsa+k9qkdzfjBFBgNVHSMEPjA8gBSd
+EBv8h3TguzJhVpZe0FKOsc0peaEZpBcwFTETMBEGA1UEAwwKV2FHby1HIFZQToIJ
+AMb77qui+OOTMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAsGA1UdDwQEAwIFoDAVBgNV
+HREEDjAMggpXYUdvLUcgVlBOMA0GCSqGSIb3DQEBCwUAA4IBAQAfcCospak3pcrX
+G+bTCMQRMGp8bDS6iyJuLa04mLKKK8FRKGmVsJIaxuEY8dp7H/GsttSJG/gecFxG
+V53k8iQWKIIZ+eiqCGDCG13mSh3LRp8eTXBxr1m8+NQLQT5zwI8P5R4WPA6EOlm2
+Hovvc3/TZR88VSoKb+yX2t3xZm4nIMeQtMMD3jsvU0IyymGW97MrTVoc6RPs/jK+
+dlhuC+BGIMg/Jr3sgJbkkoStKQkHTfEZpidbGLEcio5uGVscdPyugIsFRCce2Ajg
+fCtn6+edclLECVqfKfl/2dz98md193LSr1n+5AxZDzdepeTAVn5fc3dEK3d5xJvD
+vY5UQW9b
+-----END CERTIFICATE-----
