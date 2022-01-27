@@ -8,7 +8,7 @@ IP = '0.0.0.0'
 if sys.argv[1:]:
   PORT = sys.argv[1]
 else:
-  PORT = openvpnwsport
+  PORT = xxxx
 #Pass
 PASS = ''
 
