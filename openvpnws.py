@@ -8,7 +8,7 @@ IP = '0.0.0.0'
 if sys.argv[1:]:
   PORT = sys.argv[1]
 else:
-  PORT = 82
+  PORT = openvpnwsport
 #Pass
 PASS = ''
 
@@ -16,7 +16,7 @@ BUFLEN = 8196 * 8
 TIMEOUT = 60
 MSG = 'WaGo SSH Debian'
 DEFAULT_HOST = '0.0.0.0:1194'
-RESPONSE = "HTTP/1.1 200 " + str(MSG) + "\r\n\r\n"
+RESPONSE = "HTTP/1.1 101 " + str(MSG) + "\r\n\r\n"
 
 class Server(threading.Thread):
     def __init__(self, host, port):
@@ -173,7 +173,7 @@ class ConnectionHandler(threading.Thread):
             if self.method=='CONNECT':
                 port = 443
             else:
-                port = 22
+                port = 82
 
         (soc_family, soc_type, proto, _, address) = socket.getaddrinfo(host, port)[0]
 
