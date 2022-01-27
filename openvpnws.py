@@ -8,7 +8,7 @@ IP = '0.0.0.0'
 if sys.argv[1:]:
   PORT = sys.argv[1]
 else:
-  PORT = xxxx
+  PORT = openvpnwsport
 #Pass
 PASS = ''
 
@@ -173,7 +173,7 @@ class ConnectionHandler(threading.Thread):
             if self.method=='CONNECT':
                 port = 443
             else:
-                port = 82
+                port = openvpnwsport
 
         (soc_family, soc_type, proto, _, address) = socket.getaddrinfo(host, port)[0]
 
@@ -225,10 +225,10 @@ class ConnectionHandler(threading.Thread):
 
 
 def main(host=IP, port=PORT):
-    print "\033[0;34m━"*8,"\033[1;32m PisoVPN VSOCKS","\033[0;34m━"*8,"\n"
+    print "\033[0;34m━"*8,"\033[1;32m Wago-G","\033[0;34m━"*8,"\n"
     print "\033[1;33mIP:\033[1;32m " + IP
     print "\033[1;33mPORT:\033[1;32m " + str(PORT) + "\n"
-    print "\033[0;34m━"*10,"\033[1;32m PisoVPN","\033[0;34m━\033[1;37m"*11,"\n"
+    print "\033[0;34m━"*10,"\033[1;32m Wago-G","\033[0;34m━\033[1;37m"*11,"\n"
     server = Server(IP, PORT)
     server.start()
     while True:
