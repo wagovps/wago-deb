@@ -8,7 +8,7 @@ IP = '0.0.0.0'
 if sys.argv[1:]:
   PORT = sys.argv[1]
 else:
-  PORT = openvpnwsport
+  PORT = openwsport
 #Pass
 PASS = ''
 
@@ -173,7 +173,7 @@ class ConnectionHandler(threading.Thread):
             if self.method=='CONNECT':
                 port = 443
             else:
-                port = openvpnwsport
+                port = openwsport
 
         (soc_family, soc_type, proto, _, address) = socket.getaddrinfo(host, port)[0]
 
